@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/GraduationProject-Backstage.iml" filepath="$PROJECT_DIR$/.idea/GraduationProject-Backstage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backstage-framework-common/backstage-framework-common.iml" filepath="$PROJECT_DIR$/backstage-framework-common/backstage-framework-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backstage-framework-common/backstage-framework-common (1).iml" filepath="$PROJECT_DIR$/backstage-framework-common/backstage-framework-common (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/backstage-framework-common/backstage-framework-common (2).iml" filepath="$PROJECT_DIR$/backstage-framework-common/backstage-framework-common (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/backstage-framework-model/backstage-framework-model.iml" filepath="$PROJECT_DIR$/backstage-framework-model/backstage-framework-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backstage-framework-parent/backstage-framework-parent.iml" filepath="$PROJECT_DIR$/backstage-framework-parent/backstage-framework-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backstage-framework-common/backstage-framework-parent (1).iml" filepath="$PROJECT_DIR$/backstage-framework-common/backstage-framework-parent (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/backstage-framework-utils/backstage-framework-utils.iml" filepath="$PROJECT_DIR$/backstage-framework-utils/backstage-framework-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backstage-service-api/backstage-service-api.iml" filepath="$PROJECT_DIR$/backstage-service-api/backstage-service-api.iml" />
+    </modules>
+  </component>
+</project>
