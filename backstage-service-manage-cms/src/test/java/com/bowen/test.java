@@ -31,6 +31,7 @@ public class test {
     @Test
     public void testFindAll() {
         List<CmsPage> all = cmsPageRepository.findAll();
+
         System.out.println(all);
 
     }
@@ -40,12 +41,12 @@ public class test {
         //分页参数
         int page = 0;//从0开始
         int size = 1;
-        Pageable pageable = PageRequest.of(page,size);
+        Pageable pageable = PageRequest.of(page, size);
 
         //条件值对象
-        CmsPage cmsPage= new CmsPage();
+        CmsPage cmsPage = new CmsPage();
         //要查询5a751fab6abb5044e0d19ea1站点的页面
-        cmsPage.setSiteId("5b30b052f58b4411fc6cb1cf");
+        //cmsPage.setSiteId("5b30b052f58b4411fc6cb1cf");
         //设置模板id条件
 //        cmsPage.setTemplateId("5ad9a24d68db5239b8fef199");
         //设置页面别名
@@ -58,7 +59,7 @@ public class test {
         //ExampleMatcher.GenericPropertyMatchers.contains() 包含关键字
 //        ExampleMatcher.GenericPropertyMatchers.startsWith()//前缀匹配
         //定义Example
-        Example<CmsPage> example = Example.of(cmsPage,exampleMatcher);
+        Example<CmsPage> example = Example.of(cmsPage, exampleMatcher);
         Page<CmsPage> all = cmsPageRepository.findAll(example, pageable);
         List<CmsPage> content = all.getContent();
         System.out.println(content);
