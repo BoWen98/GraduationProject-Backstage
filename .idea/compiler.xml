@@ -10,6 +10,7 @@
         <module name="backstage-framework-parent (1)" />
         <module name="backstage-framework-model" />
         <module name="backstage-framework-common" />
+        <module name="backstage-service-manage-cms" />
         <module name="backstage-framework-utils" />
         <module name="backstage-framework-common (1)" />
         <module name="backstage-framework-common (2)" />
@@ -24,6 +25,7 @@
       <module name="backstage-framework-parent (1)" target="1.5" />
       <module name="backstage-framework-utils" target="1.8" />
       <module name="backstage-service-api" target="1.8" />
+      <module name="backstage-service-manage-cms" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -34,6 +36,7 @@
       <module name="backstage-framework-model" options="-parameters" />
       <module name="backstage-framework-utils" options="-parameters" />
       <module name="backstage-service-api" options="-parameters" />
+      <module name="backstage-service-manage-cms" options="-parameters" />
     </option>
   </component>
 </project>

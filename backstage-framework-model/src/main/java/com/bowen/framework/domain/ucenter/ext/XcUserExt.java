@@ -1,0 +1,22 @@
+package com.bowen.framework.domain.ucenter.ext;
+
+import com.bowen.framework.domain.ucenter.XcMenu;
+import com.bowen.framework.domain.ucenter.XcUser;
+import lombok.Data;
+import lombok.ToString;
+
+import java.util.List;
+
+/**
+ * /3/20.
+ */
+@Data
+@ToString
+public class XcUserExt extends XcUser {
+
+    //权限信息
+    private List<XcMenu> permissions;
+
+    //企业信息
+    private String companyId;
+}

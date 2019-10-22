@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: backstage‐service‐manage‐cms
+  data:
+    mongodb:
+      uri: mongodb://root:123@127.0.0.1:27017/backstage?authSource=admin&authMechanism=SCRAM-SHA-1
+server:
+  port: 31001
+logging.level.org.springframework.boot.autoconfigure: ERROR
