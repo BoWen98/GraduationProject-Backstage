@@ -4,6 +4,11 @@ spring:
   data:
     mongodb:
       uri: mongodb://root:123@127.0.0.1:27017/backstage?authSource=admin&authMechanism=SCRAM-SHA-1
+      database: backstage
+  freemarker:
+    cache: false
+    settings:
+      template_update_delay: 0
 server:
   port: 31001
 logging.level.org.springframework.boot.autoconfigure: ERROR
