@@ -7,19 +7,13 @@ import java.io.IOException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-/**
- * /3/5.
- */
+
 public class MD5Util {
 
-    /**
-     * The M d5.
-     */
+
     static MessageDigest MD5 = null;
 
-    /**
-     * The Constant HEX_DIGITS.
-     */
+
     private static final char HEX_DIGITS[] = {'0', '1', '2', '3', '4', '5',
             '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'};
 
@@ -31,13 +25,7 @@ public class MD5Util {
         }
     }
 
-    /**
-     * 获取文件md5值.
-     *
-     * @param file the file
-     * @return md5串
-     * @throws IOException
-     */
+
     public static String getFileMD5String(File file) throws IOException {
         FileInputStream fileInputStream = null;
         try {
@@ -63,37 +51,19 @@ public class MD5Util {
         }
     }
 
-    /**
-     * 获取文件md5值.
-     *
-     * @param data the byte[] data
-     * @return md5串
-     * @throws IOException
-     */
+
     public static String getFileMD5String(byte[] data) throws IOException {
         MD5.update(data);
         return new String(encodeHex(MD5.digest()));
     }
 
-    /**
-     * Encode hex.
-     *
-     * @param bytes the bytes
-     * @return the string
-     */
+
     public static String encodeHex(byte bytes[]) {
         return bytesToHex(bytes, 0, bytes.length);
 
     }
 
-    /**
-     * Bytes to hex.
-     *
-     * @param bytes the bytes
-     * @param start the start
-     * @param end   the end
-     * @return the string
-     */
+
     public static String bytesToHex(byte bytes[], int start, int end) {
         StringBuilder sb = new StringBuilder();
         for (int i = start; i < start + end; i++) {
@@ -103,24 +73,13 @@ public class MD5Util {
 
     }
 
-    /**
-     * Byte to hex.
-     *
-     * @param bt the bt
-     * @return the string
-     */
+
     public static String byteToHex(byte bt) {
         return HEX_DIGITS[(bt & 0xf0) >> 4] + "" + HEX_DIGITS[bt & 0xf];
 
     }
 
-    /**
-     * 获取md5值.
-     *
-     * @param str the string
-     * @return md5串
-     * @throws IOException
-     */
+
     public static String getStringMD5(String str) {
         StringBuilder sb = new StringBuilder();
         try {
@@ -136,11 +95,7 @@ public class MD5Util {
         return sb.toString();
     }
 
-    /**
-     * The main method.
-     *
-     * @param args the arguments
-     */
+
     public static void main(String[] args) {
 
         long beginTime = System.currentTimeMillis();

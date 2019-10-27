@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="backstage-service-api" />
         <module name="backstage-framework-parent (1)" />
+        <module name="backstage-service-manage-cms-client" />
         <module name="backstage-framework-model" />
         <module name="backstage-framework-common" />
         <module name="backstage-service-manage-cms" />
         <module name="backstage-framework-utils" />
         <module name="backstage-framework-common (1)" />
+        <module name="backstage-service-manage-course" />
         <module name="backstage-framework-common (2)" />
       </profile>
     </annotationProcessing>
@@ -26,6 +28,8 @@
       <module name="backstage-framework-utils" target="1.8" />
       <module name="backstage-service-api" target="1.8" />
       <module name="backstage-service-manage-cms" target="1.8" />
+      <module name="backstage-service-manage-cms-client" target="1.8" />
+      <module name="backstage-service-manage-course" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -37,6 +41,8 @@
       <module name="backstage-framework-utils" options="-parameters" />
       <module name="backstage-service-api" options="-parameters" />
       <module name="backstage-service-manage-cms" options="-parameters" />
+      <module name="backstage-service-manage-cms-client" options="-parameters" />
+      <module name="backstage-service-manage-course" options="-parameters" />
     </option>
   </component>
 </project>

@@ -8,9 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import javax.persistence.Column;
 import java.io.Serializable;
 
-/**
- * /2/27.
- */
+
 @Data
 @ToString
 @Document(collection = "view_course_media")

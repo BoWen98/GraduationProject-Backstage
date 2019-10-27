@@ -4,9 +4,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-/**
- * /5/21.
- */
+
 @Data
 @ToString
 @NoArgsConstructor

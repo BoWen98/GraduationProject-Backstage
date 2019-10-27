@@ -10,9 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @ToString
 @Document(collection = "cms_site_server")
 public class CmsSiteServer {
-    /**
-     * 站点id、服务器IP、端口、访问地址、服务器类型（代理、静态、动态、CDN）、资源发布地址（完整的HTTP接口）、使用类型（测试、生产）
-     */
+
     //站点id
     private String siteId;
     //服务器ID

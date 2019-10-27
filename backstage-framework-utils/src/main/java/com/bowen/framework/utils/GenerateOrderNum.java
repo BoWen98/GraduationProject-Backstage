@@ -3,31 +3,18 @@ package com.bowen.framework.utils;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * /3/27.
- */
+
 public class GenerateOrderNum {
-    /**
-     * 锁对象，可以为任意对象
-     */
+
     private static Object lockObj = "lockerOrder";
-    /**
-     * 订单号生成计数器
-     */
+
     private static long orderNumCount = 0L;
-    /**
-     * 每毫秒生成订单号数量最大值
-     */
+
     private int maxPerMSECSize=1000;
 
-    /**
-     *
-     */
 
-    /**
-     * 生成非重复订单号，理论上限1毫秒1000个，可扩展
-     * @param tname 测试用
-     */
+
+
     public synchronized void generate(String tname) {
         try {
             // 最终生成的订单号
@@ -53,27 +40,7 @@ public class GenerateOrderNum {
 
     public static void main(String[] args) {
         // 测试多线程调用订单号生成工具
-        /*try {
-            for (int i = 0; i < 200; i++) {
-                Thread t1 = new Thread(new Runnable() {
-                    public void run() {
-                        GenerateOrderNum generateOrderNum = new GenerateOrderNum();
-                        generateOrderNum.generate("a");
-                    }
-                }, "at" + i);
-                t1.start();
 
-                Thread t2 = new Thread(new Runnable() {
-                    public void run() {
-                        GenerateOrderNum generateOrderNum = new GenerateOrderNum();
-                        generateOrderNum.generate("b");
-                    }
-                }, "bt" + i);
-                t2.start();
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }*/
         System.out.println(System.currentTimeMillis());
     }
 }

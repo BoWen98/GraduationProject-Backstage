@@ -7,9 +7,7 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.io.Serializable;
 
-/**
- * /2/10.
- */
+
 @Data
 @ToString
 @Entity

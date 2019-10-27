@@ -8,15 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.http.client.OkHttp3ClientHttpRequestFactory;
 import org.springframework.web.client.RestTemplate;
 
-/**
- * @ProjectName: GraduationProject-Backstage
- * @Package: com.bowen.manage_cms
- * @ClassName: ManageCmsApplication
- * @Author: Bowen
- * @Description: cms启动类
- * @Date: 2019/10/22 11:09
- * @Version: 1.0.0
- */
+
 @SpringBootApplication
 @EntityScan("com.bowen.framework.domain.cms")//扫描实体类
 @ComponentScan(basePackages = {"com.bowen.api"})//扫描接口

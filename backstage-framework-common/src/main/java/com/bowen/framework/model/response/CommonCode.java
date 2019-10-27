@@ -2,12 +2,7 @@ package com.bowen.framework.model.response;
 
 import lombok.ToString;
 
-/**
- * @Author: mrt.
- * @Description:
- * @Date:Created in 2018/1/24 18:33.
- * @Modified By:
- */
+
 
 @ToString
 public enum CommonCode implements ResultCode {

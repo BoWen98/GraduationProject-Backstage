@@ -8,9 +8,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * /4/4.
- */
+
 @Data
 @ToString
 @Entity

@@ -4,12 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 此文件用于视频文件处理，步骤如下：
- * 1、生成mp4
- * 2、生成m3u8
- *
- */
+
 public class HlsVideoUtil extends  VideoUtil {
 
     String ffmpeg_path = "D:\\Program Files\\ffmpeg-20180227-fa0c9d6-win64-static\\bin\\ffmpeg.exe";//ffmpeg的安装位置
@@ -30,28 +25,14 @@ public class HlsVideoUtil extends  VideoUtil {
         if(!m3u8dir.exists()){
             m3u8dir.mkdirs();
         }
-       /* if(m3u8dir.exists()&&m3u8_path.indexOf("/hls/")>=0){//在hls目录方可删除，以免错误删除
-            String[] children = m3u8dir.list();
-            //删除目录中的文件
-            for (int i = 0; i < children.length; i++) {
-                File file = new File(m3u8_path, children[i]);
-                file.delete();
-            }
-        }else{
-            m3u8dir.mkdirs();
-        }*/
+
     }
 
-    /**
-     * 生成m3u8文件
-     * @return 成功则返回success，失败返回控制台日志
-     */
+
     public String generateM3u8(){
         //清理m3u8文件目录
         clear_m3u8(m3u8folder_path);
- /*
-        ffmpeg -i  lucene.mp4   -hls_time 10 -hls_list_size 0   -hls_segment_filename ./hls/lucene_%05d.ts ./hls/lucene.m3u8
-         */
+
 //        String m3u8_name = video_name.substring(0, video_name.lastIndexOf("."))+".m3u8";
         List<String> commend = new ArrayList<String>();
         commend.add(ffmpeg_path);
@@ -97,10 +78,7 @@ public class HlsVideoUtil extends  VideoUtil {
 
 
 
-    /**
-     * 检查视频处理是否完成
-     * @return ts列表
-     */
+
     public List<String> get_ts_list() {
 //        String m3u8_name = video_name.substring(0, video_name.lastIndexOf("."))+".m3u8";
         List<String> fileList = new ArrayList<String>();

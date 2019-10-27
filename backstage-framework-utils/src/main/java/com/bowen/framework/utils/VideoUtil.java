@@ -4,12 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 此文件作为视频文件处理父类，提供：
- * 1、查看视频时长
- * 2、校验两个视频的时长是否相等
- *
- */
+
 public class VideoUtil {
 
     String ffmpeg_path = "D:\\Program Files\\ffmpeg-20180227-fa0c9d6-win64-static\\bin\\ffmpeg.exe";//ffmpeg的安装位置
@@ -38,9 +33,7 @@ public class VideoUtil {
 
     //获取视频时间(时：分：秒：毫秒)
     public String get_video_time(String video_path) {
-        /*
-        ffmpeg -i  lucene.mp4
-         */
+
         List<String> commend = new ArrayList<String>();
         commend.add(ffmpeg_path);
         commend.add("-i");

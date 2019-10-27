@@ -6,9 +6,7 @@ import org.apache.commons.lang3.StringUtils;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
-/**
- * /5/25.
- */
+
 public class XcOauth2Util {
 
     public UserJwt getUserJwtFromHeader(HttpServletRequest request){

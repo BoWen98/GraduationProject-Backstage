@@ -38,11 +38,7 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.Optional;
 
-/**
- * @author Administrator
- * @version 1.0
- * @create 2018-09-12 18:32
- **/
+
 @Service
 public class PageService {
 
@@ -65,14 +61,7 @@ public class PageService {
     GridFSBucket gridFSBucket;
 
 
-    /**
-     * 页面查询方法
-     *
-     * @param page             页码，从1开始记数
-     * @param size             每页记录数
-     * @param queryPageRequest 查询条件
-     * @return
-     */
+
     public QueryResponseResult findList(int page, int size, QueryPageRequest queryPageRequest) {
         if (queryPageRequest == null) {
             queryPageRequest = new QueryPageRequest();
@@ -114,21 +103,7 @@ public class PageService {
         return queryResponseResult;
     }
 
-    /*    //新增页面
-        public CmsPageResult add(CmsPage cmsPage){
-            //校验页面名称、站点Id、页面webpath的唯一性
-            //根据页面名称、站点Id、页面webpath去cms_page集合，如果查到说明此页面已经存在，如果查询不到再继续添加
-            CmsPage cmsPage1 = cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPageWebPath());
-            if(cmsPage1==null){
-                //调用dao新增页面
-                cmsPage.setPageId(null);
-                cmsPageRepository.save(cmsPage);
-                return new CmsPageResult(CommonCode.SUCCESS,cmsPage);
-            }
-            //添加失败
-            return new CmsPageResult(CommonCode.FAIL,null);
 
-        }*/
     //新增页面
     public CmsPageResult add(CmsPage cmsPage) {
         if (cmsPage == null) {
@@ -215,15 +190,7 @@ public class PageService {
 
     //页面静态化方法
 
-    /**
-     * 静态化程序获取页面的DataUrl
-     * <p>
-     * 静态化程序远程请求DataUrl获取数据模型。
-     * <p>
-     * 静态化程序获取页面的模板信息
-     * <p>
-     * 执行页面静态化
-     */
+
     public String getPageHtml(String pageId){
 
         //获取数据模型

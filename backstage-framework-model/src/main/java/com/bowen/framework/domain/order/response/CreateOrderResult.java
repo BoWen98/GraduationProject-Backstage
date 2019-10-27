@@ -6,9 +6,7 @@ import com.bowen.framework.model.response.ResultCode;
 import lombok.Data;
 import lombok.ToString;
 
-/**
- * /3/26.
- */
+
 @Data
 @ToString
 public class CreateOrderResult extends ResponseResult {

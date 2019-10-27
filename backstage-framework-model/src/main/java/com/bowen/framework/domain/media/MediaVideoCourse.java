@@ -9,9 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.List;
 
 
-/**
- * /3/5.
- */
+
 @Data
 @ToString
 @Document(collection = "media_video_course")

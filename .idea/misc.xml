@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/backstage-framework-common/pom.xml" />
         <option value="$PROJECT_DIR$/backstage-framework-model/pom.xml" />
         <option value="$PROJECT_DIR$/backstage-service-manage-cms/pom.xml" />
+        <option value="$PROJECT_DIR$/backstage-service-manage-course/pom.xml" />
+        <option value="$PROJECT_DIR$/backstage-service-manage-cms-client/pom.xml" />
       </list>
     </option>
   </component>

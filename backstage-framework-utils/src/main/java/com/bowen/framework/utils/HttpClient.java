@@ -25,12 +25,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-/**
- * http请求客户端
- * 
- * @author Administrator
- * 
- */
+
 public class HttpClient {
 	private String url;
 	private Map<String, String> param;
@@ -103,9 +98,7 @@ public class HttpClient {
 		execute(http);
 	}
 
-	/**
-	 * set http post,put param
-	 */
+
 	private void setEntity(HttpEntityEnclosingRequestBase http) {
 		if (param != null) {
 			List<NameValuePair> nvps = new LinkedList<NameValuePair>();

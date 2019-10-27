@@ -5,9 +5,7 @@ import lombok.ToString;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-/**
- * /2/27.
- */
+
 @Data
 @ToString
 @Document(collection = "report_course")

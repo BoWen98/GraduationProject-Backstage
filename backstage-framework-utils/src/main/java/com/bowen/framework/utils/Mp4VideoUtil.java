@@ -4,9 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * /3/6.
- */
+
 public class Mp4VideoUtil extends VideoUtil {
 
     String ffmpeg_path = "D:\\Program Files\\ffmpeg-20180227-fa0c9d6-win64-static\\bin\\ffmpeg.exe";//ffmpeg的安装位置
@@ -28,16 +26,11 @@ public class Mp4VideoUtil extends VideoUtil {
             mp4File.delete();
         }
     }
-    /**
-     * 视频编码，生成mp4文件
-     * @return 成功返回success，失败返回控制台日志
-     */
+
     public String generateMp4(){
         //清除已生成的mp4
         clear_mp4(mp4folder_path+mp4_name);
-        /*
-        ffmpeg.exe -i  lucene.avi -c:v libx264 -s 1280x720 -pix_fmt yuv420p -b:a 63k -b:v 753k -r 18 .\lucene.mp4
-         */
+
         List<String> commend = new ArrayList<String>();
         //commend.add("D:\\Program Files\\ffmpeg-20180227-fa0c9d6-win64-static\\bin\\ffmpeg.exe");
         commend.add(ffmpeg_path);

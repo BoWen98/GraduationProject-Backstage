@@ -3,9 +3,7 @@ package com.bowen.framework.domain.order.request;
 import com.bowen.framework.model.request.RequestData;
 import lombok.Data;
 
-/**
- * /3/27.
- */
+
 @Data
 public class weixinPayInformRequest extends RequestData {
 

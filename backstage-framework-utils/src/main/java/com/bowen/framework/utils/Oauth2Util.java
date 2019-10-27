@@ -8,9 +8,7 @@ import org.springframework.security.jwt.JwtHelper;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
-/**
- * /5/25.
- */
+
 public class Oauth2Util {
 
     public static Map<String,String> getJwtClaimsFromHeader(HttpServletRequest request) {

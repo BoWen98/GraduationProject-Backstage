@@ -2,22 +2,114 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be09b021-da2d-4625-8eec-2566ea1295b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backstage-service-api/src/main/java/com/bowen/api/cms/CmsConfigControllerApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/config/MongoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/controller/CmsConfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/controller/CmsPagePreviewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/dao/CmsConfigRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/dao/CmsTemplateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_40.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage-service-api/src/main/java/com/bowen/api/course/CourseControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage-service-manage-cms-client/backstage-service-manage-cms-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage-service-manage-course/backstage-service-manage-course.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/response/CmsCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/response/CmsCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backstage-framework-model/target/classes/com/bowen/framework/domain/cms/response/CmsCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/target/classes/com/bowen/framework/domain/cms/response/CmsCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backstage-service-api/target/classes/com/bowen/api/cms/CmsPageControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service-api/target/classes/com/bowen/api/cms/CmsPageControllerApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-common/src/main/java/com/bowen/framework/client/BowenServiceList.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-common/src/main/java/com/bowen/framework/client/BowenServiceList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-common/src/main/java/com/bowen/framework/exception/ExceptionCast.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-common/src/main/java/com/bowen/framework/exception/ExceptionCast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-common/src/main/java/com/bowen/framework/model/request/RequestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-common/src/main/java/com/bowen/framework/model/request/RequestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-common/src/main/java/com/bowen/framework/model/response/CommonCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-common/src/main/java/com/bowen/framework/model/response/CommonCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-common/src/main/java/com/bowen/framework/model/response/QueryResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-common/src/main/java/com/bowen/framework/model/response/QueryResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-common/src/main/java/com/bowen/framework/model/response/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-common/src/main/java/com/bowen/framework/model/response/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-common/src/main/java/com/bowen/framework/model/response/ResponseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-common/src/main/java/com/bowen/framework/model/response/ResponseResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-common/src/main/java/com/bowen/framework/model/response/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-common/src/main/java/com/bowen/framework/model/response/ResultCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-common/target/classes/com/bowen/framework/client/BowenServiceList.class" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-common/target/classes/com/bowen/framework/client/BowenServiceList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/CmsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/CmsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/CmsSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/CmsSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/CmsSiteServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/CmsSiteServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/learning/XcLearningList.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/learning/XcLearningList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/MediaFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/MediaFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/MediaFileProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/MediaFileProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/MediaFileProcess_m3u8.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/MediaFileProcess_m3u8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/MediaVideoCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/MediaVideoCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/MediaVideoCourseSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/MediaVideoCourseSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/response/CheckChunkResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/response/CheckChunkResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/response/MediaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/response/MediaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/response/MediaCourseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/response/MediaCourseResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/response/MediaFileResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/media/response/MediaFileResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/XcOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/XcOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/XcOrdersDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/XcOrdersDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/XcOrdersPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/XcOrdersPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/request/CreateOrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/request/CreateOrderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/request/weixinPayInformRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/request/weixinPayInformRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/response/CreateOrderResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/response/CreateOrderResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/response/OrderCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/response/OrderCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/response/OrderResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/response/OrderResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/response/PayOrderResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/response/PayOrderResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/response/PayQrcodeResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/order/response/PayQrcodeResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/portalview/PreViewCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/portalview/PreViewCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/portalview/PreViewCourseMedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/portalview/PreViewCourseMedia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/portalview/ViewCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/portalview/ViewCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/portalview/ViewCourseMedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/portalview/ViewCourseMedia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/portalview/response/PortalViewCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/portalview/response/PortalViewCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/report/ReportCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/report/ReportCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/report/ReportCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/report/ReportCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/search/CourseSearchParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/search/CourseSearchParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/system/SysDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/system/SysDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/system/SysDictionaryValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/system/SysDictionaryValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/task/XcTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/task/XcTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/task/XcTaskHis.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/task/XcTaskHis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/test/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/XcCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/XcCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/XcCompanyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/XcCompanyUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/XcMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/XcMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/XcPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/XcPermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/XcRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/XcRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/XcTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/XcTeacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/XcUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/XcUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/XcUserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/XcUserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/ext/AuthToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/ext/AuthToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/ext/UserBasicInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/ext/UserBasicInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/ext/UserToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/ext/UserToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/ext/UserTokenStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/ext/UserTokenStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/ext/XcMenuExt.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/ext/XcMenuExt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/ext/XcUserExt.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/ext/XcUserExt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/request/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/request/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/response/AuthCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/response/AuthCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/response/JwtResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/response/JwtResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/response/LoginResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/response/LoginResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/response/UcenterCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/ucenter/response/UcenterCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-model/target/classes/com/bowen/framework/domain/cms/CmsSite.class" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-model/target/classes/com/bowen/framework/domain/cms/CmsSite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/CookieUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/GenerateOrderNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/GenerateOrderNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/HlsVideoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/HlsVideoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/HttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/Mp4VideoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/Mp4VideoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/Oauth2Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/Oauth2Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/Snowflake.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/Snowflake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/SnowflakeIdWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/SnowflakeIdWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/VideoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/VideoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/XcOauth2Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/XcOauth2Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/ZipUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/ZipUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/ManageCmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/ManageCmsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/controller/CmsConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/controller/CmsConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/controller/CmsPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/controller/CmsPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/service/PageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/service/PageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backstage-service-manage-cms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service-manage-cms/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backstage-service-manage-cms/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service-manage-cms/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backstage-service-manage-cms/target/classes/com/bowen/manage_cms/ManageCmsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service-manage-cms/target/classes/com/bowen/manage_cms/ManageCmsApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backstage-service-manage-cms/target/classes/com/bowen/manage_cms/service/PageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service-manage-cms/target/classes/com/bowen/manage_cms/service/PageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-service-manage-cms/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service-manage-cms/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-service-manage-cms/src/test/java/com/bowen/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service-manage-cms/src/test/java/com/bowen/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-service-manage-cms/target/classes/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service-manage-cms/target/classes/logback-spring.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/backstage-framework-parent/target/" />
     <ignored path="$PROJECT_DIR$/backstage-framework-model/target/" />
@@ -25,6 +117,8 @@
     <ignored path="$PROJECT_DIR$/backstage-framework-common/target/" />
     <ignored path="$PROJECT_DIR$/backstage-service-api/target/" />
     <ignored path="$PROJECT_DIR$/backstage-service-manage-cms/target/" />
+    <ignored path="$PROJECT_DIR$/backstage-service-manage-course/target/" />
+    <ignored path="$PROJECT_DIR$/backstage-service-manage-cms-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,57 +136,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/service/PageService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="229" column="31" selection-start-line="229" selection-start-column="19" selection-end-line="229" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/response/CmsCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/config/MongoConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/controller/CmsPagePreviewController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backstage-service-api/src/main/java/com/bowen/api/cms/CmsConfigControllerApi.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,48 +149,88 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/controller/CmsConfigController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="62" selection-start-line="62" selection-end-line="62" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/ManageCmsApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
-              <folding>
-                <element signature="e#767#768#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#1144#1145#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backstage-service-api/src/main/java/com/bowen/api/cms/CmsPageControllerApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
+            <state relative-caret-position="627">
               <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/system/SysDictionaryValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/system/SysDictionary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/task/XcTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/task/XcTaskHis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backstage-service-api/src/main/java/com/bowen/api/course/CourseControllerApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms-client/src/main/java/com/bowen/manage_cms_client/service/PageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backstage-service-api/src/main/java/com/bowen/api/config/Swagger2Configuration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/CmsSite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -166,15 +249,22 @@
     <findStrings>
       <find>1.0</find>
       <find>Xc</find>
-      <find>xuecheng</find>
       <find>Created by mrt on 2018</find>
       <find>Created by admin on 2018</find>
       <find>/**</find>
+      <find>xc</find>
+      <find>xuecheng</find>
+      <find>1.0-SNAPSHOT</find>
+      <find>(/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+/)</find>
     </findStrings>
     <replaceStrings>
       <replace>1.0.0</replace>
       <replace>Bowen</replace>
+      <replace />
+      <replace>backstage</replace>
       <replace>bowen</replace>
+      <replace>1.0.0-SNAPSHOT</replace>
+      <replace />
       <replace />
     </replaceStrings>
     <dirStrings>
@@ -188,11 +278,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/Teachplan.java" />
-        <option value="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/TeachplanMedia.java" />
-        <option value="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/response/CourseCode.java" />
-        <option value="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/response/DeleteCourseResult.java" />
-        <option value="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/response/AddCourseResult.java" />
         <option value="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/request/CourseListRequest.java" />
         <option value="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/ext/CategoryNode.java" />
         <option value="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/ext/CategoryParameter.java" />
@@ -208,7 +293,6 @@
         <option value="$PROJECT_DIR$/backstage-framework-utils/src/main/java/com/bowen/framework/utils/BCryptUtil.java" />
         <option value="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/CmsPageParam.java" />
         <option value="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/CmsPage.java" />
-        <option value="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/CmsSite.java" />
         <option value="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/CmsTemplate.java" />
         <option value="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/CmsSiteServer.java" />
         <option value="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/CmsConfigModel.java" />
@@ -235,10 +319,16 @@
         <option value="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/controller/CmsConfigController.java" />
         <option value="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/ManageCmsApplication.java" />
         <option value="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/config/MongoConfig.java" />
-        <option value="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/service/PageService.java" />
         <option value="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/response/CmsCode.java" />
         <option value="$PROJECT_DIR$/backstage-service-manage-cms/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/controller/CmsPagePreviewController.java" />
+        <option value="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/service/PageService.java" />
+        <option value="$PROJECT_DIR$/backstage-service-manage-cms-client/xc-service-manage-cms-client.iml" />
+        <option value="$PROJECT_DIR$/backstage-service-manage-cms-client/pom.xml" />
+        <option value="$PROJECT_DIR$/backstage-service-manage-course/pom.xml" />
+        <option value="$PROJECT_DIR$/backstage-service-api/src/main/java/com/bowen/api/course/CourseControllerApi.java" />
+        <option value="$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/CmsSite.java" />
+        <option value="$PROJECT_DIR$/backstage-service-manage-cms-client/src/main/java/com/bowen/manage_cms_client/service/PageService.java" />
       </list>
     </option>
   </component>
@@ -253,32 +343,13 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="backstage-framework-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="backstage-framework-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="backstage-framework-model" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="backstage-framework-model" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-188" />
-    <option name="y" value="53" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-189" />
+    <option name="y" value="52" />
     <option name="width" value="1940" />
     <option name="height" value="1100" />
   </component>
@@ -290,6 +361,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,25 +373,80 @@
             <path>
               <item name="GraduationProject-Backstage" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraduationProject-Backstage" type="462c0819:PsiDirectoryNode" />
-              <item name="backstage-service-manage-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GraduationProject-Backstage" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraduationProject-Backstage" type="462c0819:PsiDirectoryNode" />
-              <item name="backstage-service-manage-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GraduationProject-Backstage" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraduationProject-Backstage" type="462c0819:PsiDirectoryNode" />
-              <item name="backstage-service-manage-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GraduationProject-Backstage" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraduationProject-Backstage" type="462c0819:PsiDirectoryNode" />
-              <item name="backstage-service-manage-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationProject-Backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject-Backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationProject-Backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject-Backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationProject-Backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject-Backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationProject-Backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject-Backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationProject-Backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject-Backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationProject-Backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject-Backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationProject-Backstage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject-Backstage" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service-manage-cms-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -326,46 +454,16 @@
             <path>
               <item name="GraduationProject-Backstage" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraduationProject-Backstage" type="462c0819:PsiDirectoryNode" />
-              <item name="backstage-service-manage-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service-manage-cms-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manage_cms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraduationProject-Backstage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraduationProject-Backstage" type="462c0819:PsiDirectoryNode" />
-              <item name="backstage-service-manage-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manage_cms" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraduationProject-Backstage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraduationProject-Backstage" type="462c0819:PsiDirectoryNode" />
-              <item name="backstage-service-manage-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manage_cms" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraduationProject-Backstage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraduationProject-Backstage" type="462c0819:PsiDirectoryNode" />
-              <item name="backstage-service-manage-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="manage_cms_client" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,7 +474,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backstage-service-api/src/main/java/com/bowen/api" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -393,11 +491,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA_WORK\GraduationProject-Backstage\backstage-service-api\src\main\java\com\bowen\api" />
+      <recent name="D:\IDEA_WORK\GraduationProject-Backstage" />
       <recent name="D:\IDEA_WORK\GraduationProject-Backstage\backstage-service-manage-cms\src\main\java\com\bowen\manage_cms\controller" />
       <recent name="D:\IDEA_WORK\GraduationProject-Backstage\backstage-service-manage-cms\src\main\java\com\bowen\manage_cms\config" />
       <recent name="D:\IDEA_WORK\GraduationProject-Backstage\backstage-service-api\src\main\java\com\bowen\api\cms" />
-      <recent name="D:\IDEA_WORK\GraduationProject-Backstage\backstage-service-manage-cms\src\main\java\com\bowen\manage_cms\dao" />
-      <recent name="D:\IDEA_WORK\GraduationProject-Backstage\backstage-framework-common\src\main\java\com\bowen\framework\exception" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -458,6 +556,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ManageCmsClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="backstage-service-manage-cms-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bowen.manage_cms_client.ManageCmsClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageCourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="backstage-service-manage-course" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bowen.manage_course.ManageCourseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ManageCmsApplication" />
@@ -482,7 +594,8 @@
       <workItem from="1571726102423" duration="6001000" />
       <workItem from="1571753815512" duration="1257000" />
       <workItem from="1571787288719" duration="3193000" />
-      <workItem from="1572098218398" duration="3146000" />
+      <workItem from="1572098218398" duration="3231000" />
+      <workItem from="1572148554309" duration="2105000" />
     </task>
     <task id="LOCAL-00001" summary="MongoDB结合">
       <created>1571753969647</created>
@@ -505,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571807341054</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="页面静态化">
+      <created>1572101957800</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572101957800</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -541,13 +661,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23930000" />
+    <option name="totallyTimeSpent" value="26120000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-150" y="43" width="1552" height="880" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35943776" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36461127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -593,14 +712,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MongoDB结合" />
     <MESSAGE value="前后端调试" />
-    <option name="LAST_COMMIT_MESSAGE" value="前后端调试" />
+    <MESSAGE value="页面静态化" />
+    <option name="LAST_COMMIT_MESSAGE" value="页面静态化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/backstage-service-manage-cms/src/test/java/com/bowen/test.java</url>
-          <line>43</line>
+          <line>35</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -608,119 +728,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/CourseIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/CourseBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/response/AddCourseResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/response/DeleteCourseResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/response/CourseCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/request/CourseListRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/ext/CategoryNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/ext/CategoryParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/course/ext/TeachplanExt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/filesystem/FileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/filesystem/response/UploadFileResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.13/swagger-annotations-1.5.13.jar!/io/swagger/annotations/Api.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.13/swagger-annotations-1.5.13-sources.jar!/io/swagger/annotations/Api.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backstage-service-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-675" />
@@ -800,13 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service-api/src/main/java/com/bowen/api/config/Swagger2Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -908,18 +908,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service-api/src/main/java/com/bowen/api/cms/CmsPageControllerApi.java">
+    <entry file="file://$PROJECT_DIR$/backstage-service-api/src/main/java/com/bowen/api/cms/CmsConfigController.java" />
+    <entry file="file://F:/06.前后端分离式分布式微服务架构项目 - 学成在线/day04 页面静态化/代码/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        <state relative-caret-position="400">
+          <caret line="17" column="52" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/06.前后端分离式分布式微服务架构项目 - 学成在线/day04 页面静态化/代码/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="240" column="5" lean-forward="true" selection-start-line="221" selection-start-column="4" selection-end-line="240" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/service/PageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5250">
+          <caret line="245" column="5" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service-api/src/main/java/com/bowen/api/cms/CmsConfigController.java">
+    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/response/CmsCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/config/MongoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/controller/CmsConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="62" selection-start-line="62" selection-end-line="62" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/ManageCmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+          <folding>
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/controller/CmsPagePreviewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsPageRepository.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms-client/xc-service-manage-cms-client.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/06.前后端分离式分布式微服务架构项目 - 学成在线/day08 课程图片管理 分布式文件系统/代码/xcEduService01/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2747" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service-manage-course/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service-manage-course/src/main/java/com/bowen/manage_course/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service-api/src/main/java/com/bowen/api/course/CourseControllerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/06.前后端分离式分布式微服务架构项目 - 学成在线/day06 页面发布 课程管理/代码/xcEduService01/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/CmsSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/CmsSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms-client/src/main/java/com/bowen/manage_cms_client/service/PageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service-api/src/main/java/com/bowen/api/config/Swagger2Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backstage-service-api/src/main/java/com/bowen/api/cms/CmsConfigControllerApi.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -931,87 +1075,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/pom.xml">
+    <entry file="file://$PROJECT_DIR$/backstage-service-api/src/main/java/com/bowen/api/cms/CmsPageControllerApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="62" selection-start-line="62" selection-end-line="62" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/ManageCmsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
-          <folding>
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/controller/CmsConfigController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="627">
+          <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/06.前后端分离式分布式微服务架构项目 - 学成在线/day04 页面静态化/代码/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java">
+    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/system/SysDictionaryValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="179" column="49" selection-start-line="178" selection-start-column="12" selection-end-line="179" selection-end-column="49" />
+        <state relative-caret-position="175">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/config/MongoConfig.java">
+    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/system/SysDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="200">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/06.前后端分离式分布式微服务架构项目 - 学成在线/day04 页面静态化/代码/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsCode.java">
+    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/task/XcTaskHis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="17" column="52" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="52" />
+        <state relative-caret-position="225">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/cms/response/CmsCode.java">
+    <entry file="file://$PROJECT_DIR$/backstage-framework-model/src/main/java/com/bowen/framework/domain/task/XcTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/controller/CmsPagePreviewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service-manage-cms/src/main/java/com/bowen/manage_cms/service/PageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="229" column="31" selection-start-line="229" selection-start-column="19" selection-end-line="229" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>

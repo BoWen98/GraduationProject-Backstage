@@ -12,9 +12,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.io.Serializable;
 
-/**
- * /2/27.
- */
+
 @Data
 @ToString
 @Document(collection = "view_course")

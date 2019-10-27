@@ -12,15 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
 
-/**
- * @ProjectName: GraduationProject-Backstage
- * @Package: com.bowen
- * @ClassName: test
- * @Author: Bowen
- * @Description: 测试\
- * @Date: 2019/10/22 21:49
- * @Version: 1.0.0
- */
+
 @SpringBootTest(classes = ManageCmsApplication.class)
 @RunWith(SpringRunner.class)
 public class test {
