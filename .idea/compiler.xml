@@ -6,16 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="backstage-govern-center" />
+        <module name="backstage-framework-common" />
+        <module name="backstage-service-manage-cms-client" />
+        <module name="backstage-framework-common (2)" />
+        <module name="backstage-service-manage-cms" />
+        <module name="backstage-service-ucenter" />
+        <module name="backstage-service-ucenter-auth" />
+        <module name="backstage-framework-common (1)" />
         <module name="backstage-service-api" />
         <module name="backstage-framework-parent (1)" />
-        <module name="backstage-service-manage-cms-client" />
         <module name="backstage-framework-model" />
-        <module name="backstage-framework-common" />
-        <module name="backstage-service-manage-cms" />
         <module name="backstage-framework-utils" />
-        <module name="backstage-framework-common (1)" />
+        <module name="test_FDFS" />
         <module name="backstage-service-manage-course" />
-        <module name="backstage-framework-common (2)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,10 +30,17 @@
       <module name="backstage-framework-parent" target="1.8" />
       <module name="backstage-framework-parent (1)" target="1.5" />
       <module name="backstage-framework-utils" target="1.8" />
+      <module name="backstage-govern-center" target="1.8" />
       <module name="backstage-service-api" target="1.8" />
       <module name="backstage-service-manage-cms" target="1.8" />
       <module name="backstage-service-manage-cms-client" target="1.8" />
       <module name="backstage-service-manage-course" target="1.8" />
+      <module name="backstage-service-ucenter" target="1.8" />
+      <module name="backstage-service-ucenter-auth" target="1.8" />
+      <module name="bowen-service-ucenter" target="1.5" />
+      <module name="bowen-service-ucenter-auth" target="1.8" />
+      <module name="test-fdfs" target="1.8" />
+      <module name="test_FDFS" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -39,10 +50,16 @@
       <module name="backstage-framework-common (2)" options="-parameters" />
       <module name="backstage-framework-model" options="-parameters" />
       <module name="backstage-framework-utils" options="-parameters" />
+      <module name="backstage-govern-center" options="-parameters" />
       <module name="backstage-service-api" options="-parameters" />
       <module name="backstage-service-manage-cms" options="-parameters" />
       <module name="backstage-service-manage-cms-client" options="-parameters" />
       <module name="backstage-service-manage-course" options="-parameters" />
+      <module name="backstage-service-ucenter" options="-parameters" />
+      <module name="backstage-service-ucenter-auth" options="-parameters" />
+      <module name="bowen-service-ucenter-auth" options="-parameters" />
+      <module name="test-fdfs" options="-parameters" />
+      <module name="test_FDFS" options="-parameters" />
     </option>
   </component>
 </project>

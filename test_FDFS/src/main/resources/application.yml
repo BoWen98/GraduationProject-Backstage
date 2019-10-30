@@ -1,0 +1,21 @@
+server:
+  port: 22100
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:123@127.0.0.1:27017/backstage?authSource=admin&authMechanism=SCRAM-SHA-1
+      database: backstage
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 0
+      location:
+      max-file-size: 1MB
+      max-request-size: 30MB
+  application:
+  name: xc‐service‐base‐filesystem
+fastdfs:
+  connect_timeout_in_seconds: 5
+  network_timeout_in_seconds: 30
+  charset: UTF‐8
+  tracker_servers: 192.168.5.100:22122

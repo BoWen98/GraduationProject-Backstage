@@ -14,6 +14,10 @@
         <option value="$PROJECT_DIR$/backstage-service-manage-cms/pom.xml" />
         <option value="$PROJECT_DIR$/backstage-service-manage-course/pom.xml" />
         <option value="$PROJECT_DIR$/backstage-service-manage-cms-client/pom.xml" />
+        <option value="$PROJECT_DIR$/backstage-service-ucenter/pom.xml" />
+        <option value="$PROJECT_DIR$/backstage-service-ucenter-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/backstage-govern-center/pom.xml" />
+        <option value="$PROJECT_DIR$/test_FDFS/pom.xml" />
       </list>
     </option>
   </component>

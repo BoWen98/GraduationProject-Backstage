@@ -10,10 +10,14 @@
       <module fileurl="file://$PROJECT_DIR$/backstage-framework-parent/backstage-framework-parent.iml" filepath="$PROJECT_DIR$/backstage-framework-parent/backstage-framework-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/backstage-framework-common/backstage-framework-parent (1).iml" filepath="$PROJECT_DIR$/backstage-framework-common/backstage-framework-parent (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/backstage-framework-utils/backstage-framework-utils.iml" filepath="$PROJECT_DIR$/backstage-framework-utils/backstage-framework-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backstage-govern-center/backstage-govern-center.iml" filepath="$PROJECT_DIR$/backstage-govern-center/backstage-govern-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/backstage-service-api/backstage-service-api.iml" filepath="$PROJECT_DIR$/backstage-service-api/backstage-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/backstage-service-manage-cms/backstage-service-manage-cms.iml" filepath="$PROJECT_DIR$/backstage-service-manage-cms/backstage-service-manage-cms.iml" />
       <module fileurl="file://$PROJECT_DIR$/backstage-service-manage-cms-client/backstage-service-manage-cms-client.iml" filepath="$PROJECT_DIR$/backstage-service-manage-cms-client/backstage-service-manage-cms-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/backstage-service-manage-course/backstage-service-manage-course.iml" filepath="$PROJECT_DIR$/backstage-service-manage-course/backstage-service-manage-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backstage-service-ucenter/backstage-service-ucenter.iml" filepath="$PROJECT_DIR$/backstage-service-ucenter/backstage-service-ucenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backstage-service-ucenter-auth/backstage-service-ucenter-auth.iml" filepath="$PROJECT_DIR$/backstage-service-ucenter-auth/backstage-service-ucenter-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_FDFS/test_FDFS.iml" filepath="$PROJECT_DIR$/test_FDFS/test_FDFS.iml" />
     </modules>
   </component>
 </project>

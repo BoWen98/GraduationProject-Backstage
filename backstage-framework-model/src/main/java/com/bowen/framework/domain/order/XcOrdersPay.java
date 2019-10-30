@@ -11,7 +11,7 @@ import java.io.Serializable;
 @Data
 @ToString
 @Entity
-@Table(name="xc_orders_pay")
+@Table(name=" bowen_orders_pay")
 @GenericGenerator(name = "jpa-uuid", strategy = "uuid")
 public class XcOrdersPay implements Serializable {
     private static final long serialVersionUID = -916357210051689789L;

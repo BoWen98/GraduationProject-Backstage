@@ -5,9 +5,14 @@
     <file url="file://$PROJECT_DIR$/backstage-framework-model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backstage-framework-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backstage-framework-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backstage-govern-center" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backstage-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backstage-service-manage-cms" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backstage-service-manage-cms-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backstage-service-manage-course" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backstage-service-ucenter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backstage-service-ucenter-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test-fdfs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test_FDFS" charset="UTF-8" />
   </component>
 </project>

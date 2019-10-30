@@ -11,4 +11,3 @@ spring:
       template_update_delay: 0
 server:
   port: 31001
-logging.level.org.springframework.boot.autoconfigure: ERROR
